@@ -25,6 +25,9 @@
     align-items: center;
 
 }
+.clearAll{
+    grid-column: 1/3;
+}
 .null{
     grid-column: 1/3;
 }

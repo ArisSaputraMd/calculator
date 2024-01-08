@@ -8,26 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <div class="display">0</div>
-        <button class=" btn c">C</button>
-        <button class=" btn average">+/_</button>
-        <button class=" btn percentage">%</button>
-        <button class=" btn devide">/</button>
-        <button class=" btn number seven">7</button>
-        <button class=" btn number eight">8</button>
-        <button class=" btn number nine">9</button>
-        <button class=" btn multiply">*</button>
-        <button class=" btn number four">4</button>
-        <button class=" btn number five">5</button>
-        <button class=" btn number six">6</button>
-        <button class=" btn minus">-</button>
-        <button class=" btn number one">1</button>
-        <button class=" btn number wo">2</button>
-        <button class=" btn number three">3</button>
-        <button class=" btn plus">+</button>
-        <button class=" btn number null">0</button>
-        <button class=" btn number dot">.</button>
-        <button class=" btn equal">=</button>
+        <div class="display"></div>
+        <button type="button" value="7" onclick="clearAll()" class=" btn clearAll">C</button>
+        <button type="button" value="7" onclick="del()" class="btn delete">del</button>
+        <button type="button" value="7" onclick="operate('/')" class=" btn devide">/</button>
+        <button type="button" value="7" onclick="getBtn('7')" class=" btn number seven">7</button>
+        <button type="button" value="7" onclick="getBtn('8')" class=" btn number eight">8</button>
+        <button type="button" value="7" onclick="getBtn('9')" class=" btn number nine">9</button>
+        <button type="button" value="7" onclick="operate('*')" class=" btn multiply">*</button>
+        <button type="button" value="7" onclick="getBtn('4')" class=" btn number four">4</button>
+        <button type="button" value="7" onclick="getBtn('5')" class=" btn number five">5</button>
+        <button type="button" value="7" onclick="getBtn('6')" class=" btn number six">6</button>
+        <button type="button" value="7" onclick="operate('-')" class=" btn minus">-</button>
+        <button type="button" value="7" onclick="getBtn('1')" class=" btn number one">1</button>
+        <button type="button" value="7" onclick="getBtn('2')" class=" btn number wo">2</button>
+        <button type="button" value="7" onclick="getBtn('3')" class=" btn number three">3</button>
+        <button type="button" value="7" onclick="operate('+')" class=" btn plus">+</button>
+        <button type="button" value="7" onclick="getBtn('0')" class=" btn number null">0</button>
+        <button type="button" value="7" onclick="decimal()" class=" btn number dot">.</button>
+        <button type="button" value="7" onclick="calc()" class=" btn equal">=</button>
     </div>
     <script src="index.js"></script>
 </body>
